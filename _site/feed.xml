@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>This is a simple theme for jekyll</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 08 Aug 2017 11:31:03 -0400</pubDate>
+    <lastBuildDate>Tue, 08 Aug 2017 11:31:03 -0400</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>First post of pithy</title>
+        <description>&lt;p&gt;First post of pithy&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2015/11/11/first-post-of-pithy9</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/11/11/first-post-of-pithy9</guid>
+        
+        <category>first tag</category>
+        
+        
+        <category>6categories</category>
+        
+      </item>
+    
+      <item>
+        <title>First post of pithy</title>
+        <description>&lt;p&gt;First post of pithy&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2015/11/11/first-post-of-pithy8</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/11/11/first-post-of-pithy8</guid>
+        
+        <category>first tag</category>
+        
+        
+        <category>5categories</category>
+        
+      </item>
+    
+      <item>
+        <title>First post of pithy</title>
+        <description>&lt;p&gt;First post of pithy&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2015/11/11/first-post-of-pithy7</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/11/11/first-post-of-pithy7</guid>
+        
+        <category>first tag</category>
+        
+        
+        <category>4categories</category>
+        
+      </item>
+    
+      <item>
+        <title>First post of pithy</title>
+        <description>&lt;p&gt;First post of pithy&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2015/11/11/first-post-of-pithy6</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/11/11/first-post-of-pithy6</guid>
+        
+        <category>first tag</category>
+        
+        
+        <category>3categories</category>
+        
+      </item>
+    
+      <item>
+        <title>First post of pithy</title>
+        <description>&lt;p&gt;WW, You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;11 Nov 2015&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;#include&lt;/span&gt; &lt;span class=&quot;cpf&quot;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;hello world&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;%s&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 11 Nov 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2015/11/11/first-post-of-pithy2</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/11/11/first-post-of-pithy2</guid>
+        
+        <category>first_tag</category>
+        
+        
+        <category>first_categories</category>
+        
+      </item>
+    
+      <item>
+        <title>First post of pithy aaaaaaaaaaaa bbbbbbbbbbbbbb cccccccc</title>
+        <description>&lt;p&gt;First post of pithy&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2015/11/11/first-post-of-pithy</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/11/11/first-post-of-pithy</guid>
+        
+        <category>first_tag</category>
+        
+        
+        <category>first_categories</category>
+        
+      </item>
+    
+  </channel>
+</rss>
