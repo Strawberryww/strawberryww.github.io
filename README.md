@@ -8,17 +8,6 @@ Usage
 
 This theme is free and open source, you can clone it with freedom and use it as your blog theme. Star the repository or note "power by pithy in your blog" will be the great encouragement for us, thank you.
 
-Preview
-===
-- Home Page
-![Home](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-index.jpg)
-
-- Post List
-![PostList](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-list.jpg)
-
-- Post Content
-![PostContent](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-post.jpg)
-
 Feedback
 ===
 
