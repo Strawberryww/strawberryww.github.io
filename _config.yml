@@ -1,16 +1,103 @@
-title: Your awesome title
-email: your-email@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#---------------------------------------------------------------
+# Theme version infromation
+#---------------------------------------------------------------
+version: 1.0
 
-# Build settings
+#---------------------------------------------------------------
+# Build setting
+#---------------------------------------------------------------
+plugins: [jekyll-paginate]
+# Config sass build output by sass_dir
+# Config sass output is compressed or not
+#
+sass:
+    sass_dir: /assets/stylesheet
+    style: :compressed
+
+#---------------------------------------------------------------
+# Site infromation setting
+#---------------------------------------------------------------
+
+# Site
+## You can create a locale setting at _locales and name *.yml
+title: ""
+description: "This is a simple theme for jekyll"
+keywords: "Pithy"
+locale: "en"
+#locale: "zh_CN"
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and baseurl as '/child/'
+url: ""
+baseurl: ""
+permalink: /:year/:month/:day/:title
+
+
+# Pagination
+## Set per_page to 0 to disable pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+
+# Writing
+highlighter: 'pygments'
 markdown: kramdown
-theme: minima
-#plugins:
-#  - jekyll-feed
+#theme: minima
+
+# RSS
+rss:
+  path: "/feed.xml"
+  icon: "rss"
+
+#---------------------------------------------------------------
+# Authour infromation setting
+#---------------------------------------------------------------
+
+# Author
+author:
+  name: "your name"
+  avatar: "http://jekyllrb.com/img/logo-2x.png"
+  motto: "your motto"
+
+# Socials
+## If you want the social show,place sure the social no comment
+## The socials icon base font-awesome,you can learn more on http://fontawesome.io/icons/
+socials:
+    - name: "weibo"
+      url: "http://www.weibo.com/usename/"
+      icon: "weibo"
+    - name: "github"
+      url: "https://github.com/usename"
+      icon: "github"
+    - name: "facebook"
+      url: "https://www.facebook.com/usename"
+      icon: "facebook"
+
+#---------------------------------------------------------------
+# Site comment setting
+#---------------------------------------------------------------
+
+comment:
+  enable: true
+
+# disqus
+disqus:
+  enable: true
+  short_name: dqblog
+
+#---------------------------------------------------------------
+# Site share setting
+#---------------------------------------------------------------
+
+#---------------------------------------------------------------
+# Site analysis setting
+#---------------------------------------------------------------
+# Baidu analysis
+baidu_analysis:
+  enable: true
+  token: "your baidu analysis token"
+
+# Google analysis
+google_analysus:
+  enable: false
+  token: "your google analysis token"
