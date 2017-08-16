@@ -78,7 +78,7 @@ socials:
 #---------------------------------------------------------------
 
 comment:
-  enable: true
+  enable: false
 
 # disqus
 disqus:
@@ -94,7 +94,7 @@ disqus:
 #---------------------------------------------------------------
 # Baidu analysis
 baidu_analysis:
-  enable: true
+  enable: false
   token: "your baidu analysis token"
 
 # Google analysis
